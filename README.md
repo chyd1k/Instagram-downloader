@@ -19,7 +19,7 @@ i need to use query_hash and use a <code>GET</code> request simular to the follo
 
 <code>https://www.instagram.com/graphql/query/?query_hash=query_hash_value&variables={"id":"XXX","first":12,"after":"XXX"}</code>
 
-With using this request i get only first 12 pictures from page, so i started to "play" with this and "after" value.
+With using this request i get only first 12 pictures from page, so i started to "play" with "first" and "after" value.
 When count of pictures is more then 50, we need to place end_cursor value as parameter to variable "after".
 
 
