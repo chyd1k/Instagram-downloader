@@ -18,6 +18,8 @@ def download_pics(user_id, end_cursor, pics_count, folder_name):
         urllib.request.urlretrieve(img[i], fullfilename)
 
 def main():
+    # Follow me bro :)
+    # https://www.instagram.com/trusss_me_bay/
     profile = input('Enter instagram URL:\n')
     # If folder with the name of user is not exist, creates it.
     x = 0
